@@ -9,7 +9,7 @@ inputs:
   training_data:
     type: uri_file
     path: azureml:diabetes-data@latest
-  reg_rate: 0.01
+  reg_rate: 0.02
 outputs:
   metrics_output:
     type: uri_folder
